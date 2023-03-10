@@ -1,0 +1,54 @@
+{   
+    "Name": "Reaction Role",
+    "members": [
+        {
+            "Name": "Language RoleNames",
+            "Message": "Pick the languages you're interested in:",
+            "Members": [
+                { "RoleName": "Java", "Emoji": "🧡" },
+                { "RoleName": "Python", "Emoji": "💚" },
+                { "RoleName": "JavaScript", "Emoji": "💛" },
+                { "RoleName": "C++", "Emoji": "💙" },
+                { "RoleName": "C#", "Emoji": "💜" },
+                { "RoleName": "Go", "Emoji": "🤍" },
+                { "RoleName": "Rust", "Emoji": "🤎" },
+                { "RoleName": "Ruby", "Emoji": "❤️" },
+                { "RoleName": "Unix", "Emoji": "💗" }
+            ],
+            "Inline": true
+        },
+        {
+            "Name": "Database",
+            "Message": "Pick the databases you're interested in:",
+            "Members": [
+                { "RoleName": "Firebase", "Emoji": "🟦" },
+                { "RoleName": "PostgreSQL", "Emoji": "🟩" },
+                { "RoleName": "SQL Server", "Emoji": "🟪" },
+                { "RoleName": "MySQL", "Emoji": "🟥" },
+                { "RoleName": "OracleDB", "Emoji": "🟧"},
+                { "RoleName": "MongoDB", "Emoji": "🟨" }
+            ],
+            "Inline": true
+        },
+        {
+            "Name": "Experience",
+            "Message": "What is your relative level of experience?",
+            "Members": [
+                { "RoleName": "Junior Developer", "Emoji": "🥉" },
+                { "RoleName": "Intermediate Developer", "Emoji": "🥈" },
+                { "RoleName": "Advanced Developer", "Emoji": "🥇" }
+            ],
+            "Inline": false
+        },
+        {
+            "Name": "Other Skills",
+            "Message": "Pick other skills you're interested in:",
+            "Members": [
+                { "RoleName": "Musician/Composer", "Emoji": "🎵" },
+                { "RoleName": "Graphic Artist", "Emoji": "🎨" },
+                { "RoleName": "Video Editor", "Emoji": "📽️" }
+            ],
+            "Inline": false
+        }
+    ]
+}

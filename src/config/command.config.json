@@ -1,0 +1,36 @@
+{
+  "Name": "Command",
+  "permissions": {},
+  "slashcommands": {
+    "support": {
+      "name": "ticket",
+      "description": "Submit a Support Ticket to the moderation team.",
+      "options": [
+        {
+          "name": "description",
+          "description": "Describe your incident briefly, we will reach out to you for more details.",
+          "type": 3,
+          "required": true
+        },
+        {
+          "name": "message-link",
+          "description": "Link to relevant message if applicable.",
+          "type": 3,
+          "required": false
+        }
+      ]
+    },
+    "claim": {
+      "name": "claimrole",
+      "description": "Claim a role if applicable.",
+      "options": [
+        {
+          "name": "rolename",
+          "description": "Name of role you are trying to claim.",
+          "type": 3,
+          "required": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "xenbot-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/XenBot.js",
+  "baseUrl": "./src",
+  "scripts": {
+    "build": "babel --extensions .ts,.tsx ./src -d ./dist",
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-syntax-decorators": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "babel-node": "^0.0.1-security",
+    "chalk": "4.1.2",
+    "discord.js": "^14.7.1"
+  }
+}

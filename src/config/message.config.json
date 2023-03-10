@@ -1,0 +1,66 @@
+{
+    "Name": "Message",
+	"error" : {
+        "text": {
+            "prefix": "INVALID TEXT:",
+            "badClearText": "Text could not be encrypted.",
+            "badEncryptedText": "Invalid Encrypted Text"
+        },
+        "permission": {
+            "prefix": "PERMISSION ERROR:",
+            "noPermissionRole": "You do not have any of the the required roles to use the decrypt function."
+        },
+        "key": {
+            "prefix": "KEY ERROR:",
+            "badSignature": "Signature could not be verified."
+        },
+        "abstract": {
+            "constructor": "Abstract classes can't be instantiated."
+        },
+        "startup": {
+            "config": "Config File Scan Failure: ",
+            "channel": "System Channel Scan Error: ",
+            "role": "System Role Scan Error: "
+        }
+    },
+    "command" : {
+        "register": {
+            "prefix": "REGISTRATION SERVICE:",
+            "start": "Started refreshing application (/) commands.",
+            "success": "Successfully reloaded application (/) commands."
+        }
+    },
+    "system": {
+        "startup": {
+            "start": "RunStartup executed",
+            "config": {
+                "start": "Starting Config File Scan...",
+                "success": "Successfully loaded Config File: ",
+                "done": "Config File import process was successful."
+            },
+            "channel": {
+                "start": "Checking For System Channels...",
+                "success": "Successfully found Channel: ",
+                "done": "System Channel validation process was successful."
+            },
+            "role": {
+                "start": "Checking For System Roles...",
+                "success": "Sucessfully found Role: ",
+                "done": "System Role validation process was successful."
+            },
+            "defaultroles": "The Default Member Role listener has been successfully configured",
+            "success": "XenBot RunStartup process was successful. XenBot is now running."
+        },
+        "member": {
+            "join": "Welcome to the server",
+            "lognew": "New Member joined the server: "
+        }
+    },
+    "logging": {
+        "prefix": {
+            "system": "SYSTEM",
+            "error": "ERROR",
+            "success": "SUCCESS"
+        }
+    }
+}

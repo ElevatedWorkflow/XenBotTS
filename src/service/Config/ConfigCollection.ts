@@ -1,0 +1,7 @@
+export {default as ChannelJSON} from "G:/XenBot II/src/config/channel.config.json"
+export {default as ClientJSON} from "G:/XenBot II/src/config/client.config.json"
+export {default as CommandJSON} from "G:/XenBot II/src/config/command.config.json"
+export {default as ReactionRoleJSON} from "G:/XenBot II/src/config/reactionrole.config.json"
+export {default as RoleJSON} from "G:/XenBot II/src/config/role.config.json"
+export {default as SystemJSON} from "G:/XenBot II/src/config/system.config.json"
+export {default as MessageJSON} from "G:/XenBot II/src/config/message.config.json"
