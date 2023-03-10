@@ -6209,3 +6209,4 @@ dist/service/Role/index.js
 dist/service/Role/RoleService.js
 dist/service/Startup/index.js
 dist/service/Startup/StartupService.js
+src/config/client.config.json
