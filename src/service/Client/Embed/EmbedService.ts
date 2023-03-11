@@ -1,5 +1,5 @@
 import { EmbedBuilder } from "discord.js";
-import { ReactionRoleModel, ReactionRoleGroup } from "../../model";
+import { ReactionRoleModel, ReactionRoleGroup } from "../../../model";
 import EmbedParam from './EmbedParam';
 
 export default class {

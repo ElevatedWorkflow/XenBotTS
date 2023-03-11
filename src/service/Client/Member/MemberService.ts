@@ -1,5 +1,5 @@
 import { GuildMember } from 'discord.js';
-import { ClientService, ConfigService } from '..';
+import { ClientService, ConfigService } from '../..';
 
 export default class{
     GetMemberFromUser = (userID: string): GuildMember  => {

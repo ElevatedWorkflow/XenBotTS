@@ -1,7 +1,7 @@
 import { TextChannel } from "discord.js";
-import { ClientService, LoggingService } from "..";
-import ConfigService from '../Config/ConfigService';
-import IValidatable from '../IValidatable';
+import { ClientService, LoggingService } from "../..";
+import ConfigService from '../../System/Config/ConfigService';
+import IValidatable from '../../IValidatable';
 
 export default class ChannelService implements IValidatable {    
     Validate = () => {
