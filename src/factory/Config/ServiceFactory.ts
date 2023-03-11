@@ -1,10 +1,10 @@
 import { ReactionRoleModel, ReactionRoleGroup } from "src/model"
-import { ChannelService, ConfigService, MemberService, ReactionRoleService, RoleService, ClientService } from "."
+import { ChannelService, MemberService, ReactionRoleService, RoleService, ClientService, ConfigFactory } from "../../service"
 import { Role, MessageReaction, PartialMessageReaction, User, PartialUser, GuildMember } from 'discord.js';
 
 export default class {
     //System Services
-    Config: ConfigService = new ConfigService()
+    Config: ConfigFactory = new ConfigFactory()
 
     //Client Services
     Role: RoleService = new RoleService()
@@ -49,7 +49,7 @@ export default class {
             });
         },
         HandshakeTOS : (user: User | PartialUser) => {
-            const member: GuildMember | undefined = ClientService.Client.guilds.cache.get(ConfigService.System.guildID)?.members.cache.get(user.id)
+            const member: GuildMember | undefined = ClientService.Client.guilds.cache.get(ConfigFactory.System.guildID)?.members.cache.get(user.id)
             member?.roles.add(this.Role.getRulesRole().id)
         },
         ApplyReactionRoleChange: async (reaction: MessageReaction | PartialMessageReaction, user: User | PartialUser, remove: boolean=false) => {

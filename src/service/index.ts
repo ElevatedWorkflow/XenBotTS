@@ -2,7 +2,7 @@
 export { default as IValidatable } from './IValidatable';
 
 //*No Service Dependencies
-export {ConfigService} from './Config'
+export {ConfigFactory} from '../factory/Config'
 
 //*Dependent On Config
 export {LoggingService} from './Logging'
@@ -23,4 +23,4 @@ export {ReactionRoleService} from './ReactionRole'
 export {StartupService} from './Startup' //Most Dependencies
 
 //*Service Factory
-export {default as ServiceFactory} from './ServiceFactory'
+export {default as ServiceFactory} from '../factory/Config/ServiceFactory'

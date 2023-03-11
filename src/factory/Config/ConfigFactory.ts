@@ -1,6 +1,6 @@
-import { LoggingService } from "..";
+import { LoggingService } from "../../service";
 import { ChannelJSON, ClientJSON, CommandJSON, ReactionRoleJSON, RoleJSON, SystemJSON, MessageJSON } from "./ConfigCollection";
-import IValidatable from '../IValidatable';
+import IValidatable from '../../service/IValidatable';
 
 
 const ChannelConfig= ChannelJSON;
