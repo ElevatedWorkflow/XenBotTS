@@ -1,4 +1,4 @@
-export default class ReactionRoleModel {
+export default class {
     RoleName: string;
     Emoji: string;
     constructor(roleName: string, emoji: string){

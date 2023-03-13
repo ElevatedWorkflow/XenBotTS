@@ -1,0 +1,6 @@
+export {MemberService} from './Member'
+export {EmbedService} from './Embed'
+export {CommandService} from './Command'
+export {GuildService} from './Guild'
+export {ChannelService} from './Channel'
+export {RoleService} from './Role'

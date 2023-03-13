@@ -60,7 +60,8 @@
         "prefix": {
             "system": "SYSTEM",
             "error": "ERROR",
-            "success": "SUCCESS"
+            "success": "SUCCESS",
+            "debug": "DEBUG"
         }
     }
 }
