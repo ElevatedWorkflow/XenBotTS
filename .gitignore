@@ -1,3 +1,4 @@
 node_modules/
 src/config/client.config.json
 dist
+src/config/client.config.json
